@@ -1,0 +1,119 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+
+body{
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+    background-color: #00081d;
+}
+
+#logo{
+    width: 150px;
+}
+
+#container{
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/81c68250-e0f1-4cd8-bf2d-4fd8222163de/BR-pt-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 40px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select{
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin-right: 10px;
+}
+
+#btn-enter{
+    padding: 7px 15px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+#main{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#title-main{
+    font-size: 62px;
+    font-weight: 900;
+}
+
+h3{
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+#input{
+    height: 50px;
+    width: 350px;
+    background-color: rgba(29, 29, 29, 0.488);
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+#btn-start{
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 2px 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+}
+
+#box-container{
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;    
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40913 104.96%);;
+    border-radius: 5px;
+}
+
+.box-info{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
+
+.box-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtitle-main{
+    font-size: 20px;
+}
+
+.shadow{
+    width: 85%;
+    height: 7px;
+    background-color: rgba(0, 0, 0, 0.467);
+    margin: 0 auto;
+}
